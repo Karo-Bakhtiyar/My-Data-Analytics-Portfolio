@@ -287,7 +287,7 @@ ORDER BY combination_count DESC
 LIMIT 1;
 
 -- ========================================
--- BONUS: REPORTING CHALLENGE
+-- BONUS: REPORTING CHALLENGE (DIDN'T USE THAT ONE IT'S JUST A BONUS THAT'S AVAIABLE TO USE)
 -- ========================================
 
 -- Monthly Report Template (January 2021)
@@ -318,4 +318,5 @@ JOIN balanced_tree.product_details p ON s.prod_id = p.product_id
 WHERE DATE_TRUNC('month', s.start_txn_time) = '2021-01-01'
 GROUP BY s.prod_id, p.product_name
 ORDER BY total_revenue DESC
+
 LIMIT 5;
