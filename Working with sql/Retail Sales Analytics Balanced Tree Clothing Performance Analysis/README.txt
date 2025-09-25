@@ -40,18 +40,12 @@ I structured my queries into four key areas:
 - Calculated product penetration rates across transactions
 - Analyzed product combination patterns for cross-selling opportunities
 
-### 4. Advanced Reporting & Automation
-- Created automated monthly reporting scripts
-- Built flexible queries that can run for any time period
-- Developed comprehensive business dashboards
-
 ## Key SQL Techniques Used
 
 - **Aggregate Functions**: SUM, COUNT, AVG for business metrics
 - **Window Functions**: ROW_NUMBER, RANK, PERCENTILE for advanced analytics
 - **Complex Joins**: Multiple table relationships for comprehensive analysis
 - **CTEs and Subqueries**: Breaking down complex business logic
-- **Date Functions**: Time-based analysis and filtering
 - **Conditional Logic**: CASE statements for member/non-member segmentation
 
 ## Business Impact & Insights
@@ -73,17 +67,16 @@ Through these queries, I provided Balanced Tree with:
 
 ```
 📁 balanced-tree-analysis/
-├── 📄 README.md
-├── 📁 sql-queries/
-│   ├── 01-high-level-sales-analysis.sql
-│   ├── 02-transaction-analysis.sql
-│   ├── 03-product-analysis.sql
-│   └── 04-reporting-automation.sql
+├── 📄 README.txt
+│── 📁 01-high-level-sales-analysis.sql
+│── 📁 02-transaction-analysis.sql
+│── 📁 03-product-analysis.sql
+│   
 ├── 📁 results/
 │   ├── sales-summary-report.md
 │   └── key-insights.md
 └── 📁 documentation/
-    └── data-schema.md
+    └── Schema (PostgreSQL v13).txt
 ```
 
 ## Connect With Me
@@ -97,5 +90,6 @@ I'm passionate about turning data into actionable business insights.
 - **Portfolio**: [https://github.com/Karo-Bakhtiyar/My-Data-Analytics-Portfolio]
 
 ---
+
 
 *This project is part of Danny Ma's 8 Week SQL Challenge - an excellent resource for developing real-world SQL skills in business contexts.*
